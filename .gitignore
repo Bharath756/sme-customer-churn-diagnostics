@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+
+# Logs
+*.log
+
+# Data files (keep raw data out of git if large/sensitive)
+data/raw/
+data/interim/
+
+# Model artifacts (future-proofing)
+*.pkl
+*.joblib
+
+# Temporary files
+*.tmp
+*.swp
